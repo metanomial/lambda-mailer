@@ -1,0 +1,18 @@
+= Lambda Mailer
+Benjamin Herman <benjamin@metanomial.com>
+1.0.0, January 14, 2020
+
+AWS Lambda function to forward mail received by AWS Simple Email Service.
+
+== Usage
+
+For your target domain, create rules in SES to 1. store incoming email in a specified S3 bucket, optionally with a prefix, and to 2. invoke this Lambda function with an event.
+
+Ensure that SES has permission to invoke Lambda functions, and that this Lambda function has permission to read from the specified S3.
+
+== Dedication
+
+To the extent possible under law, {author} has dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
+
+You should have received a copy of the link:COPYING.txt[CC0 Public Domain Dedication] along with this software. If not, see http://creativecommons.org/publicdomain/zero/1.0/.
+

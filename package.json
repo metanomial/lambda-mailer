@@ -1,0 +1,15 @@
+{
+	"name": "lambda-mailer",
+	"version": "1.0.0",
+	"description": "AWS Lambda function to forward mail received by AWS Simple Email Service",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Benjamin Herman <benjamin@metanoial.com>",
+	"license": "CC0-1.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/metanomial/lambda-mailer.git"
+	}
+}
